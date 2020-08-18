@@ -1,0 +1,41 @@
+/*
+Theme Name: گیتی آفرین میزان
+Theme URI: https://aminmoori.ir
+Author: امین موری
+Author URI: mailto:aminmoori.dev@gmail.com
+Description: قالب اختصاصی طراحی شده برای سایت موسسه حقوقی بین الملللی گیتی آفرین میزان
+Version: 1.0
+License: GNU General Public License v2 or later
+Tags: قالب زیبا, قالب حرفه ای
+Text Domain: attorney
+*/
+
+.wp-pagenavi {
+    clear: both;
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+    border-radius: .25rem;
+}
+
+.wp-pagenavi a, .wp-pagenavi span {
+	margin: .5rem;
+    padding: .5rem;
+    border: 1px solid #ccc;
+    border-radius: .5rem;
+}
+
+.wp-pagenavi a:hover, .wp-pagenavi span.current {
+	background: #d2ac67;
+}
+
+.wp-pagenavi span.current {
+    background: #d2ac67;
+    color: #fff;
+    padding: .5rem;
+    border-radius: 10px;
+}
+
+.wp-pagenavi .pages{
+    display: none;
+}
